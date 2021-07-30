@@ -57,3 +57,5 @@
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 ;;; ~/.doom.d/config.el (example)
 (setq doom-font (font-spec :family "FiraMono Nerd Font" :size 18))
+;; 设置logo
+(setq fancy-splash-image "~/.doom.d/logo.png")
