@@ -63,6 +63,7 @@
 
 
 ;; 设置company
+;; 注意python环境变量的位置，python的环境变量要在brew之前，避免python3定位到brew环境中
 (setq +lsp-company-backends 'company-capf)
 (setq company-idle-delay 0)
 (setq company-minimum-prefix-length 1)
