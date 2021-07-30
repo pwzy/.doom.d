@@ -60,6 +60,11 @@
 ;; 设置logo
 (setq fancy-splash-image "~/.doom.d/img/logo.png")
 
-;; company
+
+
+;; 设置company
+(setq +lsp-company-backends 'company-capf)
+(setq company-idle-delay 0)
+(setq company-minimum-prefix-length 1)
 (setq +lsp-company-backends 'company-capf)
 
