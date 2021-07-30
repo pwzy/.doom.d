@@ -58,4 +58,4 @@
 ;;; ~/.doom.d/config.el (example)
 (setq doom-font (font-spec :family "FiraMono Nerd Font" :size 18))
 ;; 设置logo
-(setq fancy-splash-image "~/.doom.d/logo.png")
+(setq fancy-splash-image "~/.doom.d/img/logo.png")
