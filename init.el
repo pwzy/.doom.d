@@ -186,3 +186,10 @@
        :config
        ;;literate
        (default +bindings +smartparens))
+
+;; 修改记录
+;; 1. tools lsp
+;; 2. lang: (python +lsp)
+;; 3. tools (debugger +lsp)
+;; 4. ui: treemacs
+
