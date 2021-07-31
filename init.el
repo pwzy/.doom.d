@@ -192,4 +192,6 @@
 ;; 2. lang: (python +lsp)
 ;; 3. tools (debugger +lsp)
 ;; 4. ui: treemacs
+;; 5. term: vterm
+
 
