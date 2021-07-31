@@ -23,7 +23,7 @@
        company           ; the ultimate code completion backend
        ;;helm              ; the *other* search engine for love and life
        ;;ido               ; the other *other* search engine...
-       ;;ivy               ; a search engine for love and life
+       ivy               ; a search engine for love and life
        vertico           ; the search engine of the future
 
        :ui
@@ -193,5 +193,6 @@
 ;; 3. tools (debugger +lsp)
 ;; 4. ui: treemacs
 ;; 5. term: vterm
+;; 6. completion: ivy
 
 
