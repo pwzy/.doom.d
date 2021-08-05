@@ -68,4 +68,5 @@
 (setq company-idle-delay 0)
 (setq company-minimum-prefix-length 1)
 (setq +lsp-company-backends 'company-capf)
-
+(setq org-agenda-files (list "~/org/gtd.org"
+                             "~/org/todo.org"))
