@@ -73,3 +73,5 @@
 ;; 设置evil-mode跳转屏幕行
 (define-key evil-normal-state-map (kbd "j") 'evil-next-visual-line)
 (define-key evil-normal-state-map (kbd "k") 'evil-previous-visual-line)
+(define-key evil-normal-state-map (kbd "<down>") 'evil-next-visual-line)
+(define-key evil-normal-state-map (kbd "<up>") 'evil-previous-visual-line)
