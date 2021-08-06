@@ -67,6 +67,9 @@
 (setq +lsp-company-backends 'company-capf)
 (setq company-idle-delay 0)
 (setq company-minimum-prefix-length 1)
-(setq +lsp-company-backends 'company-capf)
+;; 设置org-agenda搜索的文件
 (setq org-agenda-files (list "~/org/gtd.org"
                              "~/org/todo.org"))
+;; 设置evil-mode跳转屏幕行
+(define-key evil-normal-state-map (kbd "j") 'evil-next-visual-line)
+(define-key evil-normal-state-map (kbd "k") 'evil-previous-visual-line)
