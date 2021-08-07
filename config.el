@@ -75,10 +75,7 @@
 (define-key evil-normal-state-map (kbd "k") 'evil-previous-visual-line)
 (define-key evil-normal-state-map (kbd "<down>") 'evil-next-visual-line)
 (define-key evil-normal-state-map (kbd "<up>") 'evil-previous-visual-line)
-;; 设置代理
-;; (setq url-proxy-services
-;;       '(("http"     . "127.0.0.1:7890")
-;;         ("https"    . "127.0.0.1:7890")))
+;; 设置翻译插件
 (use-package! go-translate
   :config
   (setq go-translate-base-url "https://translate.google.cn"
