@@ -48,3 +48,7 @@
 ;(unpin! pinned-package another-pinned-package)
 ;; ...Or *all* packages (NOT RECOMMENDED; will likely break things)
 ;(unpin! t)
+
+
+;; 自定义安装插件
+(package! go-translate)

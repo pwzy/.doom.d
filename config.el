@@ -75,3 +75,16 @@
 (define-key evil-normal-state-map (kbd "k") 'evil-previous-visual-line)
 (define-key evil-normal-state-map (kbd "<down>") 'evil-next-visual-line)
 (define-key evil-normal-state-map (kbd "<up>") 'evil-previous-visual-line)
+;; 设置代理
+;; (setq url-proxy-services
+;;       '(("http"     . "127.0.0.1:7890")
+;;         ("https"    . "127.0.0.1:7890")))
+(use-package! go-translate
+  :config
+  (setq go-translate-base-url "https://translate.google.cn"
+        go-translate-local-language "zh-CN"
+        go-translate-token-current (cons 430675 2721866130))
+  (map! :leader
+        (:prefix-map ("t" . "toggle")
+         :desc "Translate"                 "t" #'go-translate
+         :desc "Translate in Popup"        "T" #'go-translate-popup)))
