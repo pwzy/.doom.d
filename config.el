@@ -82,6 +82,9 @@
         go-translate-local-language "zh-CN"
         go-translate-token-current (cons 430675 2721866130))
   (map! :leader
+        ;; 可以直接用以下形式 
+        ;; :desc "Translate"                 "t t" #'go-translate
+        ;; 也可以使用以下形式进行前缀提示
         (:prefix-map ("t" . "toggle")
          :desc "Translate"                 "t" #'go-translate
          :desc "Translate in Popup"        "T" #'go-translate-popup)))
