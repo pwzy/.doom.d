@@ -55,8 +55,12 @@
 
 ;; 设置全屏
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
-;;; ~/.doom.d/config.el (example)
-(setq doom-font (font-spec :family "FiraMono Nerd Font" :size 18))
+;; 设置字体
+;; Add to ~/.doom.d/config.el
+(setq doom-font (font-spec :family "FiraMono Nerd Font" :size 18 :weight 'semi-light)
+      doom-variable-pitch-font (font-spec :family "FiraMono Nerd Font") ; inherits `doom-font''s :size
+      doom-unicode-font (font-spec :family "FiraMono Nerd Font" :size 18)
+      )
 ;; 设置logo
 (setq fancy-splash-image "~/.doom.d/img/logo.png")
 
