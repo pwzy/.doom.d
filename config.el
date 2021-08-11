@@ -95,7 +95,7 @@
 
 ;; 设置python-mode中远程python解释器
 ;; (setq python-shell-remote-exec-path '("/home/jing/anaconda3/envs/torch_1_8/bin"))
-(setq python-shell-remote-exec-path '("python"))
+(setq python-shell-remote-exec-path '("~/anaconda3/envs/torch_1_8/bin"))
 ;; 设置lsp-mode中的远程lsp server
 (use-package! lsp-mode
   :config
