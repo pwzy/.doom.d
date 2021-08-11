@@ -92,3 +92,17 @@
         (:prefix-map ("t" . "toggle")
          :desc "Translate"                 "t" #'go-translate
          :desc "Translate in Popup"        "T" #'go-translate-popup)))
+
+;; 设置python-mode中远程python解释器
+;; (setq python-shell-remote-exec-path '("/home/jing/anaconda3/envs/torch_1_8/bin"))
+(setq python-shell-remote-exec-path '("python"))
+;; 设置lsp-mode中的远程lsp server
+(use-package! lsp-mode
+  :config
+  (lsp-register-client
+    (make-lsp-client :new-connection (lsp-tramp-connection "~/anaconda3/envs/torch_1_8/bin/pyls")
+                     :major-modes '(python-mode)
+                     :remote? t
+                     :server-id 'pyls)))
+
+
