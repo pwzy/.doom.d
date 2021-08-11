@@ -99,10 +99,9 @@
 ;; 设置lsp-mode中的远程lsp server
 (use-package! lsp-mode
   :config
+  ;; 进行远程语言服务器的连接，注意本地不能有和远程同名的项目
   (lsp-register-client
-    (make-lsp-client :new-connection (lsp-tramp-connection "~/anaconda3/envs/torch_1_8/bin/pyls")
+    (make-lsp-client :new-connection (lsp-tramp-connection "~/anaconda3/envs/torch_1_8/bin/jedi-language-server")
                      :major-modes '(python-mode)
                      :remote? t
-                     :server-id 'pyls)))
-
-
+                     :server-id 'jedi-language-server)))
