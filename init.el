@@ -97,7 +97,7 @@
        magit             ; a git porcelain for Emacs
        ;;make              ; run make tasks from Emacs
        ;;pass              ; password manager for nerds
-       ;;pdf               ; pdf enhancements
+       pdf               ; pdf enhancements
        ;;prodigy           ; FIXME managing external services & code builders
        ;;rgb               ; creating color strings
        ;;taskrunner        ; taskrunner for all your projects
@@ -186,13 +186,3 @@
        :config
        ;;literate
        (default +bindings +smartparens))
-
-;; 修改记录
-;; 1. tools lsp
-;; 2. lang: (python +lsp)
-;; 3. tools (debugger +lsp)
-;; 4. ui: treemacs
-;; 5. term: vterm
-;; 6. completion: ivy
-
-
