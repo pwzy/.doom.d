@@ -87,6 +87,11 @@
 (define-key evil-normal-state-map (kbd "<down>") 'evil-next-visual-line)
 (define-key evil-normal-state-map (kbd "<up>") 'evil-previous-visual-line)
 
+(define-key evil-visual-state-map (kbd "j") 'evil-next-visual-line)
+(define-key evil-visual-state-map (kbd "k") 'evil-previous-visual-line)
+(define-key evil-visual-state-map (kbd "<down>") 'evil-next-visual-line)
+(define-key evil-visual-state-map (kbd "<up>") 'evil-previous-visual-line)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; translate
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
