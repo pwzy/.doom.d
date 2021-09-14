@@ -31,7 +31,8 @@
 ;; change `org-directory'. It must be set before org loads!
 ;; (setq org-directory "~/org/")
 (setq org-directory "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/org/")
-(setq org-image-actual-width (/ (display-pixel-width) 3))
+;; (setq org-image-actual-width (/ (display-pixel-width) 3))
+(setq org-image-actual-width 900)
 
 ;; This determines the style of line numbers in effect. If set to `nil', line
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
