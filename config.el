@@ -78,7 +78,8 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; 设置org-agenda搜索的文件
 (setq org-agenda-files (list "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/org/gtd.org"
-                             "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/org/todo.org"))
+                             "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/org/todo.org"
+                             "~/Library/Mobile Documents/com~apple~CloudDocs/Documents/org/tip.org"))
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; key-bind
